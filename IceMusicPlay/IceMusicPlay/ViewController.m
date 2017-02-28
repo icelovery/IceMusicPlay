@@ -36,6 +36,7 @@
     view.backgroundColor= [UIColor redColor];
     [window  addSubview: view];
     [self.view addSubview:window];
+    NSLog(@"delete");
 }
 
 - (void)didReceiveMemoryWarning {
