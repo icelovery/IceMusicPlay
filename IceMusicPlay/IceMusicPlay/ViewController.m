@@ -43,6 +43,12 @@
     NSLog(@"1234556");
 }
 
+
+- (void)jce{
+    NSLog(@"jce");
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
