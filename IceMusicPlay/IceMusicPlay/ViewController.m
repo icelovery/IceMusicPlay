@@ -39,6 +39,10 @@
     NSLog(@"delete");
 }
 
+- (void)creaData{
+    NSLog(@"1234556");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
