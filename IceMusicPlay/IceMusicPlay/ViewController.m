@@ -39,9 +39,6 @@
     NSLog(@"delete");
 }
 
-- (void)creaData{
-    NSLog(@"1234556");
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
