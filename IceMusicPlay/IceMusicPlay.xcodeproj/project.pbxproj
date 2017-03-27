@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073E80471E69534100DB62ED /* delegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E80461E69534100DB62ED /* delegateViewController.m */; };
 		075955DD1E656ADB00EE3E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955DC1E656ADB00EE3E30 /* main.m */; };
 		075955E01E656ADB00EE3E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955DF1E656ADB00EE3E30 /* AppDelegate.m */; };
 		075955E31E656ADB00EE3E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955E21E656ADB00EE3E30 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073E80451E69534100DB62ED /* delegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateViewController.h; sourceTree = "<group>"; };
+		073E80461E69534100DB62ED /* delegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateViewController.m; sourceTree = "<group>"; };
 		075955D81E656ADB00EE3E30 /* IceMusicPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceMusicPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075955DC1E656ADB00EE3E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		075955DE1E656ADB00EE3E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				075955DF1E656ADB00EE3E30 /* AppDelegate.m */,
 				075955E11E656ADB00EE3E30 /* ViewController.h */,
 				075955E21E656ADB00EE3E30 /* ViewController.m */,
+				073E80451E69534100DB62ED /* delegateViewController.h */,
+				073E80461E69534100DB62ED /* delegateViewController.m */,
 				0759560E1E65781000EE3E30 /* FirstViewController.h */,
 				0759560F1E65781000EE3E30 /* FirstViewController.m */,
 				075956101E65781000EE3E30 /* FirstViewController.xib */,
@@ -282,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073E80471E69534100DB62ED /* delegateViewController.m in Sources */,
 				075955E31E656ADB00EE3E30 /* ViewController.m in Sources */,
 				075955E01E656ADB00EE3E30 /* AppDelegate.m in Sources */,
 				075955DD1E656ADB00EE3E30 /* main.m in Sources */,
