@@ -48,6 +48,13 @@
     NSLog(@"jce");
 }
 
+- (void)master{
+    
+    NSLog(@"1111111111111111");
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
