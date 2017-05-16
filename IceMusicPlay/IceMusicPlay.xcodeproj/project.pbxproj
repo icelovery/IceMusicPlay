@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073E80471E69534100DB62ED /* delegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E80461E69534100DB62ED /* delegateViewController.m */; };
 		075955DD1E656ADB00EE3E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955DC1E656ADB00EE3E30 /* main.m */; };
 		075955E01E656ADB00EE3E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955DF1E656ADB00EE3E30 /* AppDelegate.m */; };
 		075955E31E656ADB00EE3E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955E21E656ADB00EE3E30 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		075955EB1E656ADB00EE3E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075955E91E656ADB00EE3E30 /* LaunchScreen.storyboard */; };
 		075955F61E656ADB00EE3E30 /* IceMusicPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955F51E656ADB00EE3E30 /* IceMusicPlayTests.m */; };
 		075956011E656ADB00EE3E30 /* IceMusicPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075956001E656ADB00EE3E30 /* IceMusicPlayUITests.m */; };
+		075956111E65781000EE3E30 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0759560F1E65781000EE3E30 /* FirstViewController.m */; };
+		075956121E65781000EE3E30 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075956101E65781000EE3E30 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073E80451E69534100DB62ED /* delegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateViewController.h; sourceTree = "<group>"; };
+		073E80461E69534100DB62ED /* delegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateViewController.m; sourceTree = "<group>"; };
 		075955D81E656ADB00EE3E30 /* IceMusicPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceMusicPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075955DC1E656ADB00EE3E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		075955DE1E656ADB00EE3E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		075955FC1E656ADB00EE3E30 /* IceMusicPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceMusicPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		075956001E656ADB00EE3E30 /* IceMusicPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IceMusicPlayUITests.m; sourceTree = "<group>"; };
 		075956021E656ADB00EE3E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0759560E1E65781000EE3E30 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0759560F1E65781000EE3E30 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		075956101E65781000EE3E30 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				075955DF1E656ADB00EE3E30 /* AppDelegate.m */,
 				075955E11E656ADB00EE3E30 /* ViewController.h */,
 				075955E21E656ADB00EE3E30 /* ViewController.m */,
+				073E80451E69534100DB62ED /* delegateViewController.h */,
+				073E80461E69534100DB62ED /* delegateViewController.m */,
+				0759560E1E65781000EE3E30 /* FirstViewController.h */,
+				0759560F1E65781000EE3E30 /* FirstViewController.m */,
+				075956101E65781000EE3E30 /* FirstViewController.xib */,
 				075955E41E656ADB00EE3E30 /* Main.storyboard */,
 				075955E71E656ADB00EE3E30 /* Assets.xcassets */,
 				075955E91E656ADB00EE3E30 /* LaunchScreen.storyboard */,
@@ -249,6 +262,7 @@
 				075955EB1E656ADB00EE3E30 /* LaunchScreen.storyboard in Resources */,
 				075955E81E656ADB00EE3E30 /* Assets.xcassets in Resources */,
 				075955E61E656ADB00EE3E30 /* Main.storyboard in Resources */,
+				075956121E65781000EE3E30 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073E80471E69534100DB62ED /* delegateViewController.m in Sources */,
 				075955E31E656ADB00EE3E30 /* ViewController.m in Sources */,
 				075955E01E656ADB00EE3E30 /* AppDelegate.m in Sources */,
 				075955DD1E656ADB00EE3E30 /* main.m in Sources */,
+				075956111E65781000EE3E30 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				075956071E656ADB00EE3E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075956081E656ADB00EE3E30 /* Build configuration list for PBXNativeTarget "IceMusicPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				0759560A1E656ADB00EE3E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0759560B1E656ADB00EE3E30 /* Build configuration list for PBXNativeTarget "IceMusicPlayUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				0759560D1E656ADB00EE3E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
