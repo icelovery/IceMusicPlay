@@ -37,6 +37,11 @@
     [window  addSubview: view];
     [self.view addSubview:window];
     NSLog(@"delete");
+    
+    UIButton *btn = [[UIButton alloc]init];
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitle:@"按钮点击事件触发" forState:UIControlStateNormal];
+    [self.view addSubview:btn];
 }
 
 - (void)creaData{
@@ -54,7 +59,14 @@
     
 }
 
+-(void)makeassss{
+    NSLog(@"asdf");
+}
 
+-(void)btnClick:(UIButton *)sender{
+    //按钮点击事件
+    NSLog(@"按钮点击事件触发");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
