@@ -182,7 +182,9 @@
 
 
 
-
+-(void)bing{
+    NSLog(@"bing");
+}
 
 
 
