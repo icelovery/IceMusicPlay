@@ -67,7 +67,7 @@
     NSLog(@"12331231");
 }
 
-//master
+//masters
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
