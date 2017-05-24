@@ -217,6 +217,10 @@
     NSLog(@"22222");
 }
 
+-(void)tag{
+    NSLog(@"2032");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
