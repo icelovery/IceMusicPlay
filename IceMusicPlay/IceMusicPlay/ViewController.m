@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "FirstViewController.h"
 #import "delegateViewController.h"
 @interface ViewController ()<UIActionSheetDelegate>
 
@@ -68,6 +67,7 @@
     NSLog(@"12331231");
 }
 
+//master
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
