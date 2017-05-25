@@ -8,11 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		073E80471E69534100DB62ED /* delegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073E80461E69534100DB62ED /* delegateViewController.m */; };
-<<<<<<< HEAD
 		07588FED1ED6783B00AE9705 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07588FEC1ED6783B00AE9705 /* AddViewController.m */; };
-=======
-		07588FF01ED6787C00AE9705 /* AddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07588FEF1ED6787C00AE9705 /* AddNewViewController.m */; };
->>>>>>> jce1
 		075955DD1E656ADB00EE3E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955DC1E656ADB00EE3E30 /* main.m */; };
 		075955E01E656ADB00EE3E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955DF1E656ADB00EE3E30 /* AppDelegate.m */; };
 		075955E31E656ADB00EE3E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075955E21E656ADB00EE3E30 /* ViewController.m */; };
@@ -43,13 +39,8 @@
 /* Begin PBXFileReference section */
 		073E80451E69534100DB62ED /* delegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateViewController.h; sourceTree = "<group>"; };
 		073E80461E69534100DB62ED /* delegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateViewController.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		07588FEB1ED6783B00AE9705 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 		07588FEC1ED6783B00AE9705 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
-=======
-		07588FEE1ED6787C00AE9705 /* AddNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewViewController.h; sourceTree = "<group>"; };
-		07588FEF1ED6787C00AE9705 /* AddNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewViewController.m; sourceTree = "<group>"; };
->>>>>>> jce1
 		075955D81E656ADB00EE3E30 /* IceMusicPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceMusicPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075955DC1E656ADB00EE3E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		075955DE1E656ADB00EE3E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,16 +113,9 @@
 				075955E21E656ADB00EE3E30 /* ViewController.m */,
 				073E80451E69534100DB62ED /* delegateViewController.h */,
 				073E80461E69534100DB62ED /* delegateViewController.m */,
-<<<<<<< HEAD
 				07588FEB1ED6783B00AE9705 /* AddViewController.h */,
 				07588FEC1ED6783B00AE9705 /* AddViewController.m */,
-=======
-				07588FEE1ED6787C00AE9705 /* AddNewViewController.h */,
-				07588FEF1ED6787C00AE9705 /* AddNewViewController.m */,
-				0759560E1E65781000EE3E30 /* FirstViewController.h */,
-				0759560F1E65781000EE3E30 /* FirstViewController.m */,
-				075956101E65781000EE3E30 /* FirstViewController.xib */,
->>>>>>> jce1
+
 				075955E41E656ADB00EE3E30 /* Main.storyboard */,
 				075955E71E656ADB00EE3E30 /* Assets.xcassets */,
 				075955E91E656ADB00EE3E30 /* LaunchScreen.storyboard */,
