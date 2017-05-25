@@ -16,6 +16,11 @@
     UILabel * _nameLb;
 }
 
+-(void)merge{
+    //10.17
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
