@@ -26,7 +26,9 @@
 //    }
 //    return self;
 //}
-
+-(void)add{
+    NSLog(@"add");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
